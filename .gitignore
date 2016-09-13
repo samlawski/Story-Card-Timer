@@ -1,0 +1,9 @@
+# Ignore Mac files
+.DS_Store
+*.DS_Store
+
+# Ignore node_moduls
+/node_modules/
+
+# Ignore packaged app
+/dist/

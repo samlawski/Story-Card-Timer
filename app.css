@@ -1,0 +1,46 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  font-family: Helvetica;
+}
+#new_task {
+  border: none;
+  outline: none;
+  border-left: navy solid 3px;
+  padding: 10px;
+}
+#tasks {
+  margin-top: 10px;
+}
+.task {
+  border: 1px solid #eee;
+  padding: 10px;
+  border-left: tomato solid 3px;
+  margin-top: 2px;
+  border-radius: 3px;
+  display: flex;
+  justify-content: space-between;
+}
+.task:hover {
+  box-shadow: 0 1px 3px #aaa;
+}
+.task button {
+  cursor: pointer;
+}
+.task .delete {
+  border: none;
+  background-color: transparent;
+}
+.task.active {
+  border-left-color: orange;
+}
+.task.done {
+  border-left-color: green;
+  color: #ddd;
+}
+
+/* Helper */
+.hidden {
+  display: none;
+}

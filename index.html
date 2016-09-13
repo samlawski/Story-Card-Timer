@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>tasktimer</title>
+    <link type="text/css" rel="stylesheet" href="app.css" />
+    <script src="app.js"></script>
+  </head>
+  <body>
+    <input id="new_task" type="text" placeholder="Create new task" maxlength="42" onkeypress="sendOnEnter(event, this);"></input>
+
+    <main id="tasks">
+      <div></div>
+    </main>
+    <!-- <h1>Hello World!</h1> -->
+    <!-- We are using node <script>document.write(process.versions.node)</script>,
+    Chrome <script>document.write(process.versions.chrome)</script>,
+    and Electron <script>document.write(process.versions.electron)</script>. -->
+  </body>
+</html>
