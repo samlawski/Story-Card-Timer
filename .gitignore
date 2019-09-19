@@ -5,5 +5,4 @@
 # Ignore node_moduls
 /node_modules/
 
-# Ignore packaged app
-/dist/
+# Ignore packaged app (deactivated to allow download) /dist/
